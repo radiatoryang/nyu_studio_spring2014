@@ -17,6 +17,7 @@ public class HelloWorld : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
+	// Happens every frame
 	void Update () {
 	
 	}
