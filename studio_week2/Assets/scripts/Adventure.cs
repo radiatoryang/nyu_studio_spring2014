@@ -11,18 +11,18 @@ public class Adventure : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		// we don't have to do anything in Start() if we don't want to
 	}
 
-	// "switch()"
+	// if you have prior code experience, you can implement this pattern with "switch()"
 	
 	// Update is called once per frame
 	void Update () {
 		// if I declare a variable inside Update(),
 		// then I can ONLY use this variable inside Update() !!
-		// "buffer" is a staging area to prepare data
+		// a "buffer" is a staging area to prepare data
 		string textBuffer = "You are currently in: " + currentRoom;
-		// "concatenate"
+		// adding strings together is called "concatenating"
 
 		// "if" is like a yes / no question you ask Unity
 		// if the expression is "true", then the code will run!
@@ -66,17 +66,21 @@ public class Adventure : MonoBehaviour {
 			textBuffer += "\n(oh hey you found your student ID!)";
 			hasStudentID = true;
 
+			// when an "if" statement has no curly braces, then only executes next line
 			if (Input.GetKeyDown (KeyCode.S))
 				currentRoom = "Lobby";
 
-			// the 3 lines below are EXACTLY THE SAME as the 2 lines above
+			// the 3 lines below are THE SAME as the 2 lines above
 //			if (Input.GetKeyDown (KeyCode.S)) {
 //				currentRoom = "Lobby";
 //			}
 		}
 
-
 		// lets "render out" our text buffer and display it on-screen
+		// we need to do this at the end otherwise we'll display text too soon
 		GetComponent<TextMesh>().text = textBuffer;
+
+		// at the end of the update loop, the code waits a frame then
+		// starts over again
 	}
 }
