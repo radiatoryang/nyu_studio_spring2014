@@ -4,7 +4,7 @@ using System.Collections;
 public class NPCBot : MonoBehaviour {
 
 	// this var will hold our reference to the Transform comp. on the player gameObject
-	public Transform player;
+	public Transform player; // assign in inspectr
 	public float speed = 5f;
 	public float followDistance = 5f;
 
