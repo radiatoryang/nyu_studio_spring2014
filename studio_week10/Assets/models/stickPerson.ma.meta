@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: 13df4ec041793504c8d445474e70ac2d
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Hips
+    100002: joint10
+    100004: joint11
+    100006: joint13
+    100008: joint14
+    100010: joint16
+    100012: LeftFoot
+    100014: LeftKnee
+    100016: LeftShoulder
+    100018: LeftUpLeg
+    100020: Neck
+    100022: RightFoot
+    100024: RightKnee
+    100026: RightShoulder
+    100028: RightUpLeg
+    100030: //RootNode
+    100032: SuperStickDude
+    100034: Torso
+    400000: Hips
+    400002: joint10
+    400004: joint11
+    400006: joint13
+    400008: joint14
+    400010: joint16
+    400012: LeftFoot
+    400014: LeftKnee
+    400016: LeftShoulder
+    400018: LeftUpLeg
+    400020: Neck
+    400022: RightFoot
+    400024: RightKnee
+    400026: RightShoulder
+    400028: RightUpLeg
+    400030: //RootNode
+    400032: SuperStickDude
+    400034: Torso
+    4300000: SuperStickDude
+    7400000: WalkCycle
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: SuperStickDude
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: WalkCycle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/LeftUpLeg
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftKnee
+        weight: 1
+      - path: Hips/LeftUpLeg/LeftKnee/LeftFoot
+        weight: 1
+      - path: Hips/RightUpLeg
+        weight: 1
+      - path: Hips/RightUpLeg/RightKnee
+        weight: 1
+      - path: Hips/RightUpLeg/RightKnee/RightFoot
+        weight: 1
+      - path: Hips/Torso
+        weight: 1
+      - path: Hips/Torso/LeftShoulder
+        weight: 1
+      - path: Hips/Torso/LeftShoulder/joint13
+        weight: 1
+      - path: Hips/Torso/LeftShoulder/joint13/joint14
+        weight: 1
+      - path: Hips/Torso/Neck
+        weight: 1
+      - path: Hips/Torso/Neck/joint16
+        weight: 1
+      - path: Hips/Torso/RightShoulder
+        weight: 1
+      - path: Hips/Torso/RightShoulder/joint10
+        weight: 1
+      - path: Hips/Torso/RightShoulder/joint10/joint11
+        weight: 1
+      - path: SuperStickDude
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .150000006
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
