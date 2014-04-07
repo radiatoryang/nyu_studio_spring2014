@@ -1,0 +1,3 @@
+Sword,10
+Wand,260
+Diego,-6
